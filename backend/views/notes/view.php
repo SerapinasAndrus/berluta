@@ -2,17 +2,16 @@
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
-use app\models\Note;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\Note */
+/* @var $model frontend\models\Notes */
 
 $this->title = $model->title;
 $this->params['breadcrumbs'][] = ['label' => 'Notes', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 \yii\web\YiiAsset::register($this);
 ?>
-<div class="note-view">
+<div class="notes-view">
 
     <h1><?= Html::encode($this->title) ?></h1>
 

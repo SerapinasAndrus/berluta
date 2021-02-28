@@ -9,12 +9,12 @@ use yii\grid\GridView;
 $this->title = 'Notes';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="note-index">
+<div class="notes-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Note', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Create Notes', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace app\models;
+namespace frontend\models;
 
 use Yii;
 
@@ -13,7 +13,7 @@ use Yii;
  * @property int|null $userid
  * @property string|null $date
  */
-class Note extends \yii\db\ActiveRecord
+class Notes extends \yii\db\ActiveRecord
 {
     /**
      * {@inheritdoc}
